@@ -1,60 +1,71 @@
 package clientserverobject_TP2_2;
 
+
 import java.io.*;
-import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.Scanner;
 
 public class Client {
     public static void main(String[] args) {
-        System.out.println("Je suis un serveur");
+        try {
+            System.out.println("Je suis un client");
 
-        try (ServerSocket serverSocket = new ServerSocket(1269)) {
-            System.out.println("J'attends un client");
+            // Établissement d'une connexion avec un serveur local sur le port 1234
+            Socket s = new Socket("localhost", 1269);
+            System.out.println("Je suis connecté au serveur");
 
-            // Accepte une connexion entrante du client
-            Socket clientSocket = serverSocket.accept();
-            System.out.println("Un client est connecté");
+            // Déclaration de variables pour les nombres, l'opérateur et le résultat
+            int nb1;
+            int nb2;
+            String op;
+            double res = 0;
 
-            try (OutputStream os = clientSocket.getOutputStream(); // Obtient un flux de sortie
-                 InputStream is = clientSocket.getInputStream()) { // Obtient un flux d'entrée
-                ObjectOutputStream oos = new ObjectOutputStream(os);
-                ObjectInputStream ois = new ObjectInputStream(is);
+            // Crée un objet Scanner pour lire l'entrée utilisateur depuis la console
+            Scanner scanner = new Scanner(System.in);
 
-                // Lecture de l'objet d'opération envoyé par le client
-                Operation op1 = (Operation) ois.readObject();
-                int nb1 = op1.getNb1();
-                int nb2 = op1.getNb2();
-                String op = op1.getOp();
-                double res = 0;
+            // Demande à l'utilisateur de saisir le premier nombre
+            System.out.print("Donnez un nombre1 : ");
+            nb1 = scanner.nextInt();
 
-                // Effectue l'opération mathématique en fonction de l'opérateur
-                if (op.equals("+")) {
-                    res = nb1 + nb2;
+            // Demande à l'utilisateur de saisir le deuxième nombre
+            System.out.print("Donnez un nombre2 : ");
+            nb2 = scanner.nextInt();
 
-                } else if (op.equals("-")) {
-                    res = nb1 - nb2;
+            // Capture la ligne vide après les nombres
+            scanner.nextLine();
 
-                } else if (op.equals("*")) {
-                    res = nb1 * nb2;
+            // Demande à l'utilisateur de saisir l'opérateur (+, -, *, /)
+            System.out.print("Donnez un opérateur (+, -, *, /) : ");
+            op = scanner.nextLine();
 
-                } else if (op.equals("/")) {
-                    if (nb2 != 0) {
-                        res = (double) nb1 / nb2;
+            // Crée un objet d'opération avec les valeurs saisies
+            Operation op1 = new Operation(nb1, nb2, op);
 
-                    } else {
-                        System.out.println("Division par zéro impossible.");
-                    }
-                }
-                op1.setRes(res);
+            // Obtient un flux de sortie à partir de la socket pour envoyer des données
+            OutputStream os = s.getOutputStream();
 
-                // Envoie le résultat au client
-                oos.writeObject(op1);
-            } catch (ClassNotFoundException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
+            // Obtient un flux d'entrée à partir de la socket pour recevoir des données
+            InputStream is = s.getInputStream();
+
+            // Crée des objets pour sérialiser (envoyer) et désérialiser (recevoir) des objets
+            ObjectOutputStream oos = new ObjectOutputStream(os);
+            ObjectInputStream ois = new ObjectInputStream(is);
+
+            // Envoie l'objet d'opération au serveur
+            oos.writeObject(op1);
+
+            // Le serveur renvoie un résultat sous forme de double
+            Operation op2= (Operation) ois.readObject();
+
+            // Affiche le résultat à l'utilisateur
+            System.out.println("Résultat : " + op2.getRes());
+
+            // Ferme la connexion avec le serveur
+            s.close();
+
         } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
     }
