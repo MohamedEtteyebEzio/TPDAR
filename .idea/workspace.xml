@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d68810d-7da8-4b91-8d7e-947f0ade5962" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_DAR.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_1/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_2/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_3/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_3/clients/Client1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_3/clients/Client2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_3/clients/Client3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ClientServerPac4_1/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ClientServerPac4_1/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/clientServer1_1_2_3/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clientServer1_1_2_3/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/clientServer1_1_2_3/Client1_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clientServer1_1_2_3/Client1_3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/clientServer1_1_2_3/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clientServer1_1_2_3/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/clientServer1_1_2_3/Server1_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clientServer1_1_2_3/Server1_3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/clientServerPacTP_2_1/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clientServerPacTP_2_1/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/clientServerPacTP_2_1/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clientServerPacTP_2_1/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/client_ServerTP3/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/client_ServerTP3/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/client_ServerTP3/ClientProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/client_ServerTP3/ClientProcess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/client_ServerTP3/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/client_ServerTP3/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/clientserverobject_TP2_2/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clientserverobject_TP2_2/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/clientserverobject_TP2_2/Operation.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clientserverobject_TP2_2/Operation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/clientserverobject_TP2_2/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clientserverobject_TP2_2/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientServerPac4_1/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientServerPac4_1/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client_ServerTP3/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client_ServerTP3/Server.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2Y2NqX7CEtIr6Jxr60eOPZ8uzjp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Eizo/ETTEYEBmohamed/TP_DAR/src/ClientServerPac4/ACT4_2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Eizo\ETTEYEBmohamed\TP_DAR\src\ClientServerPac4\ACT4_2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClientServerPac4.ACT4_1.Client" />
+      <module name="TP_DAR" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ClientServerPac4.ACT4_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClientServerPac4.ACT4_1.Server" />
+      <module name="TP_DAR" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ClientServerPac4.ACT4_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d68810d-7da8-4b91-8d7e-947f0ade5962" name="Changes" comment="" />
+      <created>1699719913718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699719913718</updated>
+      <workItem from="1699719914836" duration="1933000" />
+      <workItem from="1699732636124" duration="183000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
