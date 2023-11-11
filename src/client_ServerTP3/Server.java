@@ -8,7 +8,7 @@ import java.net.Socket;
 
 public class Server extends Thread {
 	public static void main(String[] args) {
-		new Server().start(); // Démarrage du serveur en créant une nouvelle instance de la classe "Server".
+		new Server().start(); // Démarrage du serveur en créant une nouvelle instance de la classe "ClientServerPac4.ACT4_3.Server".
 	}
 
 	@Override
