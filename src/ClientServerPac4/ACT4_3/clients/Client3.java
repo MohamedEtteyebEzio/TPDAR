@@ -12,7 +12,7 @@ public class Client3 {
             System.out.println("Client de chat UDP démarré.");
 
             InetAddress serverAddress = InetAddress.getByName("localhost"); // Adresse IP du serveur
-            int serverPort = 1234; // Port de communication avec le serveur
+            int serverPort = 1235; // Port de communication avec le serveur
 
             Scanner scanner = new Scanner(System.in);
             System.out.println("please enter your name!:"); // Invite l'utilisateur à saisir son nom.

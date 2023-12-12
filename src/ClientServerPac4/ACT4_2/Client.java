@@ -13,11 +13,11 @@ public class Client {
 
             // Adresse du serveur
             InetAddress serverAddress = InetAddress.getByName("localhost"); // Ici, "localhost" signifie que le serveur est sur la même machine
-            int serverPort = 1234; // Port du serveur
+            int serverPort = 1239; // Port du serveur
 
             // Utilisation d'un scanner pour permettre à l'utilisateur de saisir son prénom
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Donnez votre prénom :\n");
+            System.out.println("Donnez votre prénom et Nom :\n");
             String message = scanner.nextLine();
             byte[] sendData = message.getBytes(); // Convertit la saisie de l'utilisateur en tableau de bytes
 

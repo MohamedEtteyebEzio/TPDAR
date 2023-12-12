@@ -6,9 +6,9 @@ import java.net.InetAddress;
 import java.util.HashSet;
 
 public class Server {
-    private static final int SERVER_PORT = 1234;
+    private static final int SERVER_PORT = 1235;
     private static HashSet<InetAddress> clientAddresses = new HashSet<>();
-    private static int clientPort =9876;
+    private static int clientPort ;
 
     public static void main(String[] args) {
         try (DatagramSocket serverSocket = new DatagramSocket(SERVER_PORT))

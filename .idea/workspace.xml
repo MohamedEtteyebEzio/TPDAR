@@ -4,22 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d68810d-7da8-4b91-8d7e-947f0ade5962" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP_DAR.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_1/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_1/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_2/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_3/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_3/clients/Client1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_3/clients/Client2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_3/clients/Client3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ClientServerPac4_1/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ClientServerPac4_1/Server.class" beforeDir="false" />
+    <list default="true" id="6d68810d-7da8-4b91-8d7e-947f0ade5962" name="Changes" comment="tp dar">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ClientServerPac4/ACT4_1/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ClientServerPac4/ACT4_1/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ClientServerPac4/ACT4_1/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ClientServerPac4/ACT4_1/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ClientServerPac4/ACT4_2/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ClientServerPac4/ACT4_2/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ClientServerPac4/ACT4_2/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ClientServerPac4/ACT4_2/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ClientServerPac4/ACT4_3/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ClientServerPac4/ACT4_3/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ClientServerPac4/ACT4_3/clients/Client1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ClientServerPac4/ACT4_3/clients/Client1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ClientServerPac4/ACT4_3/clients/Client2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ClientServerPac4/ACT4_3/clients/Client2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ClientServerPac4/ACT4_3/clients/Client3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ClientServerPac4/ACT4_3/clients/Client3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ClientServerPac4/Act4.3/Server.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/clientServer1_1_2_3/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clientServer1_1_2_3/Client.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/clientServer1_1_2_3/Client1_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clientServer1_1_2_3/Client1_3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/clientServer1_1_2_3/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clientServer1_1_2_3/Server.class" afterDir="false" />
@@ -27,14 +22,17 @@
       <change beforePath="$PROJECT_DIR$/bin/clientServerPacTP_2_1/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clientServerPacTP_2_1/Client.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/clientServerPacTP_2_1/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clientServerPacTP_2_1/Server.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/client_ServerTP3/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/client_ServerTP3/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/client_ServerTP3/ClientProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/client_ServerTP3/ClientProcess.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/client_ServerTP3/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/client_ServerTP3/Server.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/clientserverobject_TP2_2/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clientserverobject_TP2_2/Client.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/clientserverobject_TP2_2/Operation.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clientserverobject_TP2_2/Operation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/clientserverobject_TP2_2/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clientserverobject_TP2_2/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClientServerPac4_1/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClientServerPac4_1/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client_ServerTP3/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client_ServerTP3/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_1/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_1/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_1/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_2/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_2/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_2/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_2/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_3/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_3/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_3/clients/Client1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_3/clients/Client1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_3/clients/Client2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_3/clients/Client2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_3/clients/Client3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientServerPac4/ACT4_3/clients/Client3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +48,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MohamedEtteyebEzio&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="7beb50e2-966d-4918-a269-a961236d8f68" />
+        <option name="url" value="https://github.com/MohamedEtteyebEzio/TPDAR.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -68,16 +80,29 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Client.executor": "Run",
+    "Application.Client1.executor": "Run",
+    "Application.Client2.executor": "Run",
+    "Application.Client3.executor": "Run",
+    "Application.ClientServerPac4.ACT4_2.Client.executor": "Run",
+    "Application.ClientServerPac4.ACT4_2.Server.executor": "Run",
+    "Application.ClientServerPac4.ACT4_3.Server.executor": "Run",
+    "Application.ClientServerPac4.ACT4_3.server.Server.executor": "Run",
+    "Application.Server.executor": "Run",
+    "Application.TP4.Server.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Eizo/ETTEYEBmohamed/TP_DAR/src/ClientServerPac4/ACT4_2",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Eizo/ETTEYEBmohamed/TP_DAR",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -86,7 +111,7 @@
       <recent name="C:\Users\Eizo\ETTEYEBmohamed\TP_DAR\src\ClientServerPac4\ACT4_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ClientServerPac4.ACT4_1.Client" />
       <module name="TP_DAR" />
@@ -129,14 +154,80 @@
       <option name="presentableId" value="Default" />
       <updated>1699719913718</updated>
       <workItem from="1699719914836" duration="1933000" />
-      <workItem from="1699732636124" duration="183000" />
+      <workItem from="1699732636124" duration="3750000" />
+      <workItem from="1702244051102" duration="4523000" />
+      <workItem from="1702288965025" duration="1836000" />
+      <workItem from="1702290981660" duration="88000" />
+      <workItem from="1702291129076" duration="1471000" />
+      <workItem from="1702300074111" duration="2174000" />
     </task>
+    <task id="LOCAL-00001" summary="tp dar">
+      <option name="closed" value="true" />
+      <created>1699733387225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699733387225</updated>
+    </task>
+    <task id="LOCAL-00002" summary="tp dar">
+      <option name="closed" value="true" />
+      <created>1699733392843</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699733392843</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tp dar">
+      <option name="closed" value="true" />
+      <created>1699733451818</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699733451818</updated>
+    </task>
+    <task id="LOCAL-00004" summary="tp dar">
+      <option name="closed" value="true" />
+      <created>1699733460892</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699733460892</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="tp dar" />
+    <option name="LAST_COMMIT_MESSAGE" value="tp dar" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ClientServerPac4/ACT4_3/clients/Client2.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

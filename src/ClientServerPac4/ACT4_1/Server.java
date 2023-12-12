@@ -10,7 +10,7 @@ public class Server {
     public static void main(String[] args) {
         try {
             // Définit le port sur lequel le serveur écoute
-            int serverPort = 1234;
+            int serverPort = 1236;
 
             // Crée une socket pour le serveur
             DatagramSocket serverSocket = new DatagramSocket(serverPort);
@@ -44,11 +44,6 @@ public class Server {
                 String clientMessageHeure = new String(receivePacketHeure.getData(), 0, receivePacketHeure.getLength());
                 System.out.println(clientMessageHeure);
 
-                // Obtient l'heure actuelle
-                String heureResponse = "Heure: " + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
-                byte[] sendHeure = heureResponse.getBytes();
-                DatagramPacket sendPacket1 = new DatagramPacket(sendHeure, sendHeure.length, clientAddress, clientPort);
-                serverSocket.send(sendPacket1);
             }
         } catch (Exception e) {
             e.printStackTrace(); // En cas d'erreur, affiche l'exception
